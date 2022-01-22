@@ -1,0 +1,48 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.App {
+  margin: auto;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+
+.calculadora {
+  align-items: stretch;
+  max-width: 300px;
+  border: 1px solid black;
+}
+
+.tela {
+  border: 1px solid black;
+  font-size: 1.2rem;
+  max-width: 300px;
+  height: 70px;
+}
+
+button {
+  flex: 1 0 70px;
+  height: 70px;
+  margin: 2px;
+  outline: 0;
+  background-color: aquamarine;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+.h2 {
+  height: 100px;
+}
